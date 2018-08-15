@@ -1,0 +1,254 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic|Roboto:400,700,700italic,400italic);
+@import url('https://fonts.googleapis.com/css?family=Kanit:400,500,600,700,900');
+
+:root{
+  --black: #262626;
+  --blue: #0019FF;
+  --blue_light: #55C4F5;
+  --dark_form: #221E1B;
+  --green: #00E597;
+  --grey: #BCBCBC;
+  --grey_bg: #E3E3E3;
+  --purple: #5B22B2;
+  --purple_bg: #4919A2;
+  --purple_light: #E4DDF0;
+  --red: #FF3A4B;
+  --yellow: #FFBA00;
+  --yellow_light: #FFD44D;
+  --yellow_lighter: #FFECB3;
+}
+
+body{
+  font-family: 'Kanit';
+  color: var(--black);
+}
+
+h1{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+@media (max-width: 576px){
+  h1{
+    font-size:30px;
+  }
+}
+h2{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+h3{
+  margin-bottom: 20px;
+  font-size:18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+h4{
+  font-size:13px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+h5{
+  font-size:14px;
+  margin: 0;
+}
+p{
+  font-size:15px;
+}
+
+.bg-black{
+  background: var(--black);
+}
+.bg-blue{
+  background: var(--blue);
+  color: white;
+}
+.bg-grey{
+  background: var(--grey_bg);
+}
+.bg-purple{
+  background: var(--purple_bg);
+  color: white;
+}
+.bg-purple-light{
+  background: var(--purple_light);
+}
+.bg-red{
+  background: var(--red);
+  color: white;
+}
+.bg-yellow{
+  background: var(--yellow);
+  color: white;
+}
+
+.border-black{
+  border: 2px solid var(--black);
+}
+.border-purple{
+  border: 2px solid var(--purple);
+}
+
+.btn{
+  text-transform: uppercase;
+  border-radius:30px;
+  font-size:15px;
+  font-weight: 600;
+  padding:12px 29px;
+  margin-bottom: 20px;
+}
+
+.btn-black{
+  background-color: var(--black);
+  color: var(--white);
+}
+.btn-black:hover{
+  background-color: var(--black);
+  color: var(--grey);
+}
+.btn-blue{
+  background-color: var(--blue);
+  color: var(--white);
+}
+.btn-blue:hover{
+  background-color: var(--blue);
+  color: var(--grey);
+}
+.btn-blue-outline{
+  border: 2px solid var(--blue);
+  color: var(--blue);
+}
+.btn-blue-outline:hover{
+  background-color: var(--blue);
+  color: var(--white);
+}
+.btn-black-outline{
+  border: 2px solid var(--black);
+  color: var(--black);
+}
+.btn-black-outline:hover{
+  background-color: var(--black);
+  color: var(--white);
+}
+.btn-purple{
+  background-color: var(--purple);
+  color: var(--white);
+}
+.btn-purple:hover{
+  background-color: var(--purple_bg);
+  color: var(--grey);
+}
+.btn-purple-outline{
+  border: 2px solid var(--purple);
+  color: var(--purple);
+}
+.btn-purple-outline:hover{
+  background-color: var(--purple);
+  color: var(--white);
+}
+.btn-yellow{
+  background-color: var(--yellow);
+  color: var(--black);
+}
+.btn-yellow:hover{
+  background-color: var(--yellow_light);
+  color: var(--black);
+}
+.btn-yellow-outline{
+  border: 2px solid var(--yellow);
+  color: var(--yellow);
+}
+.btn-yellow-outline:hover{
+  border: 2px solid var(--yellow);
+  background-color: var(--yellow);
+  color: var(--black);
+}
+.btn-red{
+  background-color: var(--red);
+  color: var(--white);
+}
+.btn-red:hover{
+  background-color: var(--red);
+  color: var(--black);
+}
+
+.btn-red-outline{
+  border: 2px solid var(--red);
+  color: var(--red);
+}
+.btn-red-outline:hover{
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.footer li{
+  font-size: 13px;
+}
+.footer-note{
+  color: var(--grey);
+  font-size:13px;
+}
+.grey-waves{
+  background: grey url("https://fablabbcn.github.io/assets/images/sck_bg.png") ;
+  background-repeat: repeat;
+  background-size: 65px;
+}
+.measure-description{
+  overflow: auto;
+  height:220px;
+}
+.service-description{
+  overflow: auto;
+  min-height:200px;
+}
+
+.shadow-blue{
+  box-shadow: 10px 10px 0px -2px var(--blue),
+    10px 10px 0px 0px var(--black);
+}
+.shadow-grey{
+  box-shadow: 10px 10px 0px -2px var(--grey),
+    10px 10px 0px 0px var(--black);
+}
+.shadow-yellow{
+  box-shadow: 10px 10px 0px -2px var(--yellow),
+    10px 10px 0px 0px var(--black);
+}
+.shadow-purple{
+  box-shadow: 10px 10px 0px -2px var(--purple),
+    10px 10px 0px 0px var(--black);
+}
+.shadow-red{
+  box-shadow: 10px 10px 0px -2px var(--red),
+    10px 10px 0px 0px var(--black);
+}
+.shadow-white{
+  box-shadow: 10px 10px 0px -2px var(--white),
+    10px 10px 0px 0px var(--black);
+}
+.shadow-on-card{
+  position:absolute;
+  top: -9%;
+  left: 12%;
+}
+.sc-card p{
+  min-height: 110px;
+}
+
+.text-yellow{
+  color: var(--yellow);
+}
+.text-blue{
+  color: var(--blue);
+}
+.text-purple{
+  color: var(--purple);
+}
+.text-red{
+  color: var(--red);
+}
+
+
+/* Debug helper */
+.outline{
+  outline: 1px solid red;
+}
