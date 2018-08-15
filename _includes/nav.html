@@ -8,16 +8,16 @@
   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item  {% if page.url == '/' %} active {% endif %}">
-        <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{site.baseurl}}{% link / %}">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item {% if page.url == '/kit/' %} active {% endif %}">
         <a class="nav-link" href="{{site.baseurl}}{% link kit.html %}">The Kit</a>
       </li>
       <li class="nav-item {% if page.url == '/services/' %} active {% endif %}">
-        <a class="nav-link" href="/services">Packs & Services</a>
+        <a class="nav-link" href="{{site.baseurl}}{% link services.html %}">Packs & Services</a>
       </li>
       <li class="nav-item {% if page.url == '/campaigns/' %} active {% endif %}">
-        <a class="nav-link" href="/campaigns">Campaigns</a>
+        <a class="nav-link" href="{{site.baseurl}}{% link campaigns.html %}">Campaigns</a>
       </li>
     </ul>
   </div>
