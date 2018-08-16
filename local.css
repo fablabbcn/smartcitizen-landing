@@ -62,6 +62,9 @@ p{
   background: var(--blue);
   color: white;
 }
+.bg-blue-stripe{
+  background-image: url('https://github.com/fablabbcn/assets/raw/master/images/02_kit/stripes-blue-bg.png');
+}
 .bg-grey{
   background: var(--grey_bg);
 }
