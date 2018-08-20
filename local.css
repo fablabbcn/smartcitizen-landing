@@ -191,9 +191,8 @@ p{
   font-size:13px;
 }
 .grey-waves{
-  background: grey url("https://fablabbcn.github.io/assets/images/sck_bg.png") ;
-  background-repeat: repeat;
-  background-size: 65px;
+  background: url("https://fablabbcn.github.io/assets/images/04_campaign/wvs_pattern.png") ;
+  background-color: #e3e3e3;
 }
 .measure-description{
   overflow: auto;
