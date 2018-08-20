@@ -269,6 +269,9 @@ p{
 .tech-icon{
    max-width: 3em;
 }
+.faq-plus{
+   max-width: 1em;
+}
 
 /* Debug helper */
 .outline{
