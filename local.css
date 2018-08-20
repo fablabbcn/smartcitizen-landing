@@ -266,6 +266,9 @@ p{
   }
 }
 
+.tech-icon{
+   max-width: 3em;
+}
 
 /* Debug helper */
 .outline{
