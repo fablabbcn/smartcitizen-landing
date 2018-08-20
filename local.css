@@ -233,6 +233,10 @@ p{
   top: -9%;
   left: 12%;
 }
+.campaign-category-title{
+  position: relative;
+  top: -20px;
+}
 .sc-card p{
   min-height: 110px;
 }
