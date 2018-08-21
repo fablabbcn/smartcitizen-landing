@@ -252,12 +252,16 @@ p{
 .text-red{
   color: var(--red);
 }
-
+.grey-overlay{
+  background-color:rgb(20,20,20,0.4);
+  min-height: 350px;
+}
 .sc-center-image{
-  height:50%;
-  position:relative;
+  height:250px;
+  position:absolute;
+  z-index:100;
   top:22vh;
-  right:14vw;
+  left:-25%;
 }
 @media (max-width: 576px){
   .sc-center-image{
