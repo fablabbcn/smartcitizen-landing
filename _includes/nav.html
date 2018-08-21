@@ -1,6 +1,6 @@
 <nav class="py-0 navbar navbar-expand-sm sticky-top navbar-dark bg-purple justify-content-between">
   <a class="pl-md-5  navbar-brand" href="{{site.baseurl}}/">
-    <img class="" src="https://fablabbcn.github.io/assets/images/smartcitizen_logo.svg" style="height:50px" alt="SCK logo" />
+    <img class="text-white" src="https://fablabbcn.github.io/assets/images/smartcitizen_logo.svg" style="height:50px" alt="SCK logo" />
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -8,16 +8,33 @@
   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item  {% if page.url == '/' %} active {% endif %}">
-        <a class="nav-link" href="{{site.baseurl}}/">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{site.baseurl}}/">
+          Home
+          <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item {% if page.url == '/kit/' %} active {% endif %}">
-        <a class="nav-link" href="{{site.baseurl}}{% link kit.html %}">The Kit</a>
+        <a class="nav-link" href="{{site.baseurl}}{% link kit.html %}">
+        <img style="height:30px" src="https://fablabbcn.github.io/assets/images/06_menu/the_kit.svg" alt="" />
+          The Kit
+        </a>
       </li>
       <li class="nav-item {% if page.url == '/services/' %} active {% endif %}">
-        <a class="nav-link" href="{{site.baseurl}}{% link services.html %}">Packs & Services</a>
+        <a class="nav-link" href="{{site.baseurl}}{% link services.html %}">
+          <img style="height:30px" src="https://raw.githubusercontent.com/fablabbcn/assets/master/images/06_menu/packs_services.svg?sanitize=true" alt="" />
+          Packs & Services
+        </a>
       </li>
       <li class="nav-item {% if page.url == '/campaigns/' %} active {% endif %}">
-        <a class="nav-link" href="{{site.baseurl}}{% link campaigns.html %}">Campaigns</a>
+        <a class="nav-link" href="{{site.baseurl}}{% link campaigns.html %}">
+          <img style="height:30px" src="https://raw.githubusercontent.com/fablabbcn/assets/master/images/06_menu/campaigns.svg?sanitize=true" alt="" />
+          Campaigns
+        </a>
+      </li>
+      <li class="nav-item {% if page.url == '/platform/' %} active {% endif %}">
+        <a class="nav-link" href="https://app.smartcitizen.me/" target="_blank">
+          <img style="height:30px" src="https://raw.githubusercontent.com/fablabbcn/assets/master/images/06_menu/platform.svg?sanitize=true" alt="" />
+          Platform
+        </a>
       </li>
     </ul>
   </div>
