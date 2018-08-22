@@ -1,3 +1,6 @@
+---
+# This SCSS will be compiled to CSS and served from _sites/css/local.css
+---
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic|Roboto:400,700,700italic,400italic);
 @import url('https://fonts.googleapis.com/css?family=Kanit:400,500,600,700,900');
 
@@ -243,7 +246,24 @@ p{
 .sc-card p{
   min-height: 110px;
 }
-
+.sc-talkbox{
+  /* Are these yellow/orange colors used again? If so add them to the variables */
+  background-color: #F7F2DA;
+  border: 2px solid #EABE3A;
+}
+.sc-rotate45{
+  transition: 0.25s;
+  /*browser specific versions*/
+  -moz-transition: 0.25s;
+  -ms-transition: 0.25s;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  transform: rotate(45deg);
+}
+.sc-faq{
+  @extend .border-black;
+  @extend .shadow-yellow;
+}
 .text-yellow{
   color: var(--yellow);
 }
@@ -257,7 +277,7 @@ p{
   color: var(--red);
 }
 .services-main{
-  background-color:rgb(20,20,20,0.4);
+  background-color: rgba(20,20,20,0.4);
   min-height: 350px;
 }
 .sc-center-image{
