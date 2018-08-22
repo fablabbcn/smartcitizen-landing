@@ -36,11 +36,6 @@ h1{
   line-height: 6.5rem;
   text-transform: uppercase;
 }
-@media (max-width: 576px){
-  h1{
-    font-size:30px;
-  }
-}
 h2{
   margin-bottom: 1.5rem;
   font-size:4.5rem;
@@ -85,11 +80,25 @@ section{
   padding-left: 120px;
   padding-right: 120px;
 }
+
 @media (max-width: 576px){
+  h1{
+    font-size:4.5rem;
+    line-height: 4.5rem;
+  }
+  h2{
+    font-size:3.1rem;
+    line-height: 3.1rem;
+  }
   section{
     padding-left: 10px;
     padding-right: 10px;
   }
+  .sc-center-image{
+    top: -3vh;
+    right: -15vw;
+  }
+
 }
 
 li{
@@ -326,13 +335,6 @@ li{
   top:22vh;
   left:-25%;
 }
-@media (max-width: 576px){
-  .sc-center-image{
-    top: -3vh;
-    right: -15vw;
-  }
-}
-
 .tech-icon{
    max-width: 3em;
 }
