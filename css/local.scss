@@ -91,6 +91,10 @@ section{
   }
 }
 
+li{
+ font-size:15px;
+}
+
 .bg-black{
   background: var(--black);
 }
@@ -240,6 +244,7 @@ section{
   height:220px;
 }
 .service-description{
+  margin-top: 3.2rem;
   overflow: auto;
   min-height:200px;
 }
