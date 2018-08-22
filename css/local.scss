@@ -13,7 +13,7 @@
   --grey: #BCBCBC;
   --grey_bg: #E3E3E3;
   --purple: #5B22B2;
-  --purple2: #4919A2;
+  --purple_dark: #4919A2;
   --purple_light: #E4DDF0;
   --red: #FF3A4B;
   --yellow: #FFBA00;
@@ -82,8 +82,8 @@ p{
   background: var(--purple);
   color: white;
 }
-.bg-purple2{
-  background: var(--purple2);
+.bg-purple-dark{
+  background: var(--purple_dark);
   color: white;
 }
 .bg-purple-light{
@@ -151,7 +151,7 @@ p{
   color: var(--white);
 }
 .btn-purple:hover{
-  background-color: var(--purple2);
+  background-color: var(--purple_dark);
   color: var(--grey);
 }
 .btn-purple-outline{
