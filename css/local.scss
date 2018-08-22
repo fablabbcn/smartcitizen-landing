@@ -21,16 +21,19 @@
   --yellow_lighter: #FFECB3;
 }
 
+html{
+  font-size:10px;
+}
 body{
   font-family: 'Kanit';
   color: var(--black);
 }
 
 h1{
-  font-size:65px;
+  font-size:6.5rem;
   font-weight: 900;
   letter-spacing:1px;
-  line-height: 65px;
+  line-height: 6.5rem;
   text-transform: uppercase;
 }
 @media (max-width: 576px){
@@ -39,40 +42,53 @@ h1{
   }
 }
 h2{
-  font-size:45px;
+  margin-top: 4.0rem;
+  margin-bottom: 1.5rem;
+  font-size:4.5rem;
   font-weight: 900;
   letter-spacing:1px;
-  line-height: 45px;
+  line-height: 4.5rem;
   text-transform: uppercase;
 }
 h3{
-  font-size:30px;
+  font-size:3.0rem;
   font-weight: 700;
   letter-spacing:1px;
-  line-height: 30px;
-  margin-bottom: 20px;
+  line-height: 3.0rem;
+  margin-bottom: 2.0rem;
   text-transform: uppercase;
 }
 h4{
-  font-size:20px;
+  font-size:2.0rem;
   font-weight: 700;
   letter-spacing:1px;
-  line-height: 20px;
+  line-height: 2.0rem;
   text-transform: uppercase;
 }
 h5{
   font-family: 'Roboto Condensed';
-  font-size:20px;
+  font-size:2.0rem;
   font-weight: 700;
   letter-spacing:1px;
-  line-height: 20px;
+  line-height: 2.0rem;
   margin: 0;
 }
 p{
   font-family: 'Roboto Condensed';
-  font-size:20px;
+  font-size:2rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 2.4rem;
+}
+
+section{
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-left: 120px;
+}
+@media (max-width: 576px){
+  section{
+    padding-left: 10px;
+  }
 }
 
 .bg-black{
@@ -219,6 +235,7 @@ p{
   background-color: #e3e3e3;
 }
 .measure-description{
+  margin-top: 2.6rem;
   overflow: auto;
   height:220px;
 }
