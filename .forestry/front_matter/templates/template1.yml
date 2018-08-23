@@ -24,3 +24,5 @@ fields:
     color_format: Hex
   label: Mycolor
   description: Choose a color
+pages:
+- testpage.md
