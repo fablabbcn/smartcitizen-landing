@@ -18,3 +18,9 @@ fields:
 - type: boolean
   name: mytoggle
   label: Mytoggle
+- type: color
+  name: mycolor
+  config:
+    color_format: Hex
+  label: Mycolor
+  description: Choose a color
