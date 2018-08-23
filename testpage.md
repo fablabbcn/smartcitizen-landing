@@ -19,6 +19,6 @@ This is a testpage made with Forestry.io
 List
 
 * first
-* second
+* seconds
 
 paragraph
