@@ -1,0 +1,13 @@
+---
+label: template1
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Add a title
+  config:
+    required: false
+  hidden: false
+  default: My title
