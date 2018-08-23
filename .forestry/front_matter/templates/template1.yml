@@ -11,3 +11,10 @@ fields:
     required: false
   hidden: false
   default: My title
+- type: datetime
+  name: birthdate
+  label: Birthdate
+  description: Your birthdate
+- type: boolean
+  name: mytoggle
+  label: Mytoggle
