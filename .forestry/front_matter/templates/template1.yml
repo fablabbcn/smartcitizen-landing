@@ -20,6 +20,8 @@ fields:
   name: mytoggle
   label: Mytoggle
   default: true
+  description: Yes or no?
+  hidden: false
 - type: color
   name: mycolor
   config:
