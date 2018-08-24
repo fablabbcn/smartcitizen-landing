@@ -4,9 +4,9 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  name: title
-  label: Title
-  description: Add a title
+  name: megatitle
+  label: Title Mega
+  description: Add your title!
   config:
     required: false
   hidden: false
