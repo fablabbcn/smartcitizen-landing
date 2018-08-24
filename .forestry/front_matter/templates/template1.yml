@@ -1,0 +1,34 @@
+---
+label: template1
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: megatitle
+  label: Title Mega
+  description: Add your title!
+  config:
+    required: false
+  hidden: false
+  default: My titlerrr
+- type: datetime
+  name: birthdate
+  label: Birthdate
+  description: Your birthdate
+  default: 2018-08-08 22:00:00 +0000
+- type: boolean
+  name: mytoggle
+  label: Mytoggle
+  default: true
+  description: Yes or no?
+  hidden: false
+- type: color
+  name: mycolor
+  config:
+    color_format: Hex
+  label: Mycolor
+  description: Choose a color
+  default: "#AFAFAF"
+pages:
+- _posts/post2.md
+- testpage.md
