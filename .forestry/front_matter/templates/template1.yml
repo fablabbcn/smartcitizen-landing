@@ -10,7 +10,7 @@ fields:
   config:
     required: false
   hidden: false
-  default: My title
+  default: My titlerrr
 - type: datetime
   name: birthdate
   label: Birthdate
