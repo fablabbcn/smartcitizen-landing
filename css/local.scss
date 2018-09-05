@@ -298,6 +298,7 @@ li{
   height:220px;
 }
 .service-description{
+  padding: 1rem;
   margin-top: 3.2rem;
   overflow: auto;
   min-height:200px;
@@ -354,6 +355,7 @@ li{
   transform: rotate(45deg);
 }
 .sc-faq{
+  padding:20px;
   @extend .border-black;
   @extend .shadow-yellow;
 }
