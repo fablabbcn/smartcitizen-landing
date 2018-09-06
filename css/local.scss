@@ -91,21 +91,25 @@ section{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-// Only on biggest
-@media (min-width: 1200px){
+@media (min-width: 768px){
+  .sc-leftpad{
+    padding:50px !important;
+  }
+  .sc-rightpad{
+    padding:50px !important;
+  }
+}
+// Only on lg + xl
+@media (min-width: 992px){
   section{
     padding:30px 120px;
   }
 
   .sc-leftpad{
-    padding-left:130px;
-    padding-right:80px;
-    padding-top:50px;
+    padding:50px 130px !important;
   }
   .sc-rightpad{
-    padding-right:130px;
-    padding-top:60px;
+    padding:50px 130px !important;
   }
 }
 
@@ -377,10 +381,10 @@ li{
 }
 .sc-center-image{
   height:250px;
-  position:absolute;
+  left: 50%;
+  margin-left: -125px; // Half of image size
   z-index:100;
-  top:22vh;
-  left:-25%;
+  position:absolute;
 }
 .tech-icon{
   max-width: 3em;
