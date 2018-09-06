@@ -91,6 +91,8 @@ section{
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+// On md and bigger
 @media (min-width: 768px){
   .sc-leftpad{
     padding:50px !important;
