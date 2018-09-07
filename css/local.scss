@@ -101,17 +101,26 @@ section{
     padding:50px !important;
   }
 }
-// Only on lg + xl
+// lg+
 @media (min-width: 992px){
+  .sc-leftpad{
+    padding-right:14vw !important;
+  }
+  .sc-rightpad{
+    padding-left:14vw !important;
+  }
+}
+// xl+
+@media (min-width: 1200px){
   section{
     padding:30px 120px;
   }
 
   .sc-leftpad{
-    padding:50px 130px !important;
+    padding-left: 130px !important;
   }
   .sc-rightpad{
-    padding:50px 130px !important;
+    padding-right: 130px !important;
   }
 }
 
