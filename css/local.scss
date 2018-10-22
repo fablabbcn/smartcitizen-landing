@@ -158,7 +158,6 @@ section{
     top: -3vh;
     right: -15vw;
   }
-
 }
 
 li{
@@ -373,6 +372,10 @@ li{
   padding:20px;
   @extend .border-black;
   @extend .shadow-yellow;
+}
+.sc-faq:hover{
+  cursor:pointer;
+  background: #eee !important;
 }
 .text-yellow{
   color: var(--yellow);
