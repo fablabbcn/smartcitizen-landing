@@ -10,7 +10,7 @@ collections:
     output: true
 email: info@smartcitizen.me
 description: The Smart Citizen Kit
-baseurl: ""
+baseurl: ''
 url: ''
 twitter_username: smartcitizenkit
 github_username: fablabbcn
