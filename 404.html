@@ -31,7 +31,7 @@ layout: default
   if (window.location.pathname.startsWith("/kits/") ) {
     console.log('yes')
     t1 = window.setTimeout(function(){
-      window.location = "https://kits.smartcitizen.me/" + window.location.pathname;
+      window.location.replace("https://kits.smartcitizen.me/" + window.location.pathname);
     },1500);
   }
 </script>
