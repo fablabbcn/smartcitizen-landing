@@ -20,5 +20,18 @@ layout: default
   <h1>404</h1>
 
   <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+
+  <p>All requests to /kits/ will be redirected in 1 seconds</p>
+
 </div>
+
+<script>
+  console.log(window.location.pathname);
+  // Redirect all /kits/ paths to the Angular app
+  if (window.location.pathname.startsWith("/kits/") ) {
+    console.log('yes')
+    t1 = window.setTimeout(function(){
+      window.location = "https://kits.smartcitizen.me/" + window.location.pathname;
+    },1500);
+  }
+</script>
