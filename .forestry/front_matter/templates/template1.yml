@@ -46,5 +46,6 @@ fields:
   description: Select from multiple
   hidden: false
 pages:
+- _posts/test2019.md
 - testpage.md
 - _posts/post2.md
