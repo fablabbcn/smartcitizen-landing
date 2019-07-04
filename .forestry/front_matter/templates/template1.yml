@@ -1,7 +1,6 @@
 ---
 label: template1
 hide_body: false
-is_partial: false
 fields:
 - type: text
   name: megatitle
@@ -15,7 +14,7 @@ fields:
   name: birthdate
   label: Birthdate
   description: Your birthdate
-  default: 2018-08-08 22:00:00 +0000
+  default: '2018-08-08T22:00:00.000+00:00'
 - type: boolean
   name: mytoggle
   label: Mytoggle
@@ -29,6 +28,23 @@ fields:
   label: Mycolor
   description: Choose a color
   default: "#AFAFAF"
+- name: some_sorted_field
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - viktor
+    - default
+    - home
+    source:
+      type: pages
+      section: jekyll-pages
+      file: 
+      path: 
+  label: Some sorted field label
+  description: Select from multiple
+  hidden: false
 pages:
-- _posts/post2.md
 - testpage.md
+- _posts/post2.md
