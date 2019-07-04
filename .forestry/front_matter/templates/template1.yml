@@ -38,7 +38,7 @@ fields:
     - default
     - home
     source:
-      type: pages
+      type: simple
       section: jekyll-pages
       file: 
       path: 
